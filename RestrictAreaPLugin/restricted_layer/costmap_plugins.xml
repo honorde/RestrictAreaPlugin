@@ -1,0 +1,7 @@
+<library path="lib/librestricted_layer">
+    <class type="restrict_area::RestrictedLayer" base_class_type="costmap_2d::Layer">
+      <description>Create Restricted Layer by using mouse location of rviz mouse movement</description>
+    </class>
+
+</library>
+

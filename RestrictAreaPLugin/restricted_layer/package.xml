@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>restricted_layer</name>
+  <version>0.0.1</version>
+  <description>Package of Restricted Layer</description>
+
+
+  <maintainer email="demircanonur06@gmail.com">OnurDemircan</maintainer>
+
+
+
+  <license>TODO</license>s
+
+
+  
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>costmap_2d</build_depend>
+  <build_depend>dynamic_reconfigure</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_export_depend>costmap_2d</build_export_depend>
+  <build_export_depend>dynamic_reconfigure</build_export_depend>
+  <build_export_depend>roscpp</build_export_depend>
+  <exec_depend>costmap_2d</exec_depend>
+  <exec_depend>dynamic_reconfigure</exec_depend>
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>rviz</exec_depend>
+
+  <export>
+    <costmap_2d plugin="${prefix}/costmap_plugins.xml" />
+  </export>
+</package>

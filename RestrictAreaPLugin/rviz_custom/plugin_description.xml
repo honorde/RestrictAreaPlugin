@@ -1,0 +1,10 @@
+<!-- Define Rviz Library-->
+<library path="lib/librviz_custom">
+   <class name="rviz_custom/CreateRestrict"
+         type="rviz_custom::Restrict"
+         base_class_type="rviz::Tool">
+    <description>
+      This tool provides creating obstacle which is using for personal restrict area.
+    </description>
+  </class>
+</library>
